@@ -8,6 +8,7 @@ import Trusted from "./Components/Trusted";
 import Powering from "./Components/Powering";
 import Backed from "./Components/Backed";
 import Starts from "./Components/Starts";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         Paystack="Try Paystack Now"
         payments="Start accepting payments in just 30 minutes"
       />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,32 @@
+.FooterContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Paystack {
+  width: 21%;
+  height: 80%;
+}
+.Pricing {
+  width: 21%;
+  height: 80%;
+}
+.Developers {
+  width: 21%;
+  height: 80%;
+}
+.About {
+  width: 21%;
+  height: 80%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 20px;
+}
+h3{
+    line-height: 50px;
+}
