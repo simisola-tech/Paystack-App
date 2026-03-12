@@ -1,0 +1,86 @@
+.simplecontainer {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.simplepayment {
+  width: 90%;
+  min-height: 40vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #011b33;
+    margin-top: 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #011b33;
+  }
+}
+
+.imageTextHolder {
+  width: 95%;
+  display: flex;
+  min-height: 80vh;
+  height: auto;
+}
+
+.simpleleft {
+  width: 50%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.simpleright {
+  width: 50%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #011b33;
+    width: 75%;
+  }
+
+  p {
+    font-size: 19px;
+    font-weight: 19px;
+    color: #011b33;
+    width: 80%;
+  }
+
+  span {
+    color: #3dbf62;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.icon-holder {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+.icons {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

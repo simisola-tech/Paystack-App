@@ -1,7 +1,8 @@
  import React from 'react'
 import "./Header.css"
 import Button from './Button'
-import {nav} from "./dataJson"
+import {nav, navBar} from "./dataJson"
+
 
 const Header = () => {
   return (
@@ -20,9 +21,9 @@ const Header = () => {
         </article>
         <article className='right'>
             <ul>
-                <li>Developer</li>
-                <li>Suppport</li>
-                <li>Login</li>
+                {navBar.map((item, index) => (
+                  <li key = {item.id}>{item.name}</li>
+                ))}
             </ul>
             < Button text ="Create free account" style = {{
             padding: "10px 25px",

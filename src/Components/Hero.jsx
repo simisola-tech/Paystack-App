@@ -1,7 +1,6 @@
 import "./Hero.css";
 import Button from "./Button";
 import Background from "../assets/firstbackground.svg";
-// import TrustedSection from "./TrustedSection";
 
 const Hero = ({
   title = "Modern online and offline payments for Africa",
@@ -17,7 +16,7 @@ const Hero = ({
     <>
       <main>
         <article className="leftholder">
-          <div className="top">
+          <div className="hero_top">
             <h1>{title}</h1>
             <p>{description}</p>
             <div className="btn-holder">
@@ -64,7 +63,6 @@ const Hero = ({
           <h4>{Watch}</h4>
         </section>
       </main>
-      {/* <TrustedSection /> */}
     </>
   );
 };

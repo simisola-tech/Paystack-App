@@ -1,0 +1,41 @@
+.startContainer {
+  width: 100%;
+  height: 60vh;
+  background-color: #F0FFF3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftstart {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+
+  h1 {
+    font-size: 45px;
+    font-weight: 800;
+    width: 80%;
+  }
+}
+.rightstart {
+  width: 45%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.startBtn {
+  width: 220px;
+  height: 50px;
+  background-color: #3bb75e;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+
+}
